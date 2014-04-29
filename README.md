@@ -111,7 +111,7 @@ widget 目录下的js都会被组件化；
 {{require "widget/test.js"}} //页面加载test.js
 
 <script>
-var testjs = "{{uri `widget/test.js`}}" //动态加载test.js
+var testjs = "{{uri `widget/test.js`}}" //获得test.js的线上路径
 </script>
 ```
 
