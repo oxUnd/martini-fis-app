@@ -1,0 +1,23 @@
+{
+    "res": {
+        "page/index.tpl": {
+            "uri": "page/index.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            },
+            "deps": [
+                "widget/test.js"
+            ]
+        },
+        "static/lib/mod.js": {
+            "uri": "/static/lib/mod.js",
+            "type": "js"
+        },
+        "widget/test.js": {
+            "uri": "/static/widget/test.js",
+            "type": "js"
+        }
+    },
+    "pkg": {}
+}
