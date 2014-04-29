@@ -11,11 +11,30 @@
             ]
         },
         "static/lib/mod.js": {
-            "uri": "/static/lib/mod.js",
+            "uri": "/static/lib/mod_04a562b.js",
             "type": "js"
         },
+        "widget/header/header.css": {
+            "uri": "/static/widget/header/header_8705bcd.css",
+            "type": "css"
+        },
+        "widget/header/header.js": {
+            "uri": "/static/widget/header/header_07ad3ee.js",
+            "type": "js",
+            "deps": [
+                "widget/header/header.css"
+            ]
+        },
+        "widget/header/header.tpl": {
+            "uri": "widget/header/header.tpl",
+            "type": "tpl",
+            "deps": [
+                "widget/header/header.js",
+                "widget/header/header.css"
+            ]
+        },
         "widget/test.js": {
-            "uri": "/static/widget/test.js",
+            "uri": "/static/widget/test_5b54d20.js",
             "type": "js"
         }
     },

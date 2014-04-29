@@ -5,6 +5,9 @@
     <title>Martini FIS</title>
 </head>
 <body>
+
+    {{template "widget/header/header.tpl"}}
+    
     <p>
         Hello, Martini
     </p>
