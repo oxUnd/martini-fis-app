@@ -91,7 +91,7 @@ $ go run app.go
 
 #### 访问
 
-浏览器访问 [](http://127.0.0.1:3000) 查看效果
+浏览器访问 [http://127.0.0.1:3000](http://127.0.0.1:3000) 查看效果
 
 
 ### 开发
@@ -119,8 +119,8 @@ var testjs = "{{uri `widget/test.js`}}" //动态加载test.js
 
 ### 扩展阅读
 
-* [](fis.baidu.com)
-* [](http://fex.baidu.com/blog/2014/04/fis-static-resource-management/)
+* [fis.baidu.com](fis.baidu.com)
+* [http://fex.baidu.com/blog/2014/04/fis-static-resource-management/](http://fex.baidu.com/blog/2014/04/fis-static-resource-management/)
 
 [0]: https://github.com/fex-team/fis "fex-team/fis"
 [1]: https://github.com/martini-contrib/render "martini-contrib/render"
