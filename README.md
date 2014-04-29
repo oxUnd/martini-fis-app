@@ -106,7 +106,7 @@ widget 目录下的js都会被组件化；
 
 #### tpl
 
-```tmpl
+```html
 {{framework "mod.js"}} //引入组件化库
 {{require "widget/test.js"}} //页面加载test.js
 
