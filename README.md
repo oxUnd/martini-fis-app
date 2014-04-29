@@ -56,7 +56,7 @@ $ gois release -d remote
 
 app.go 是使用martini写的web程序；
 
-```
+```go
 package main
 
 import (
