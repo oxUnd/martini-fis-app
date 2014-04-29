@@ -21,7 +21,7 @@ $ go get github.com/go-martini/martini
 $ go get github.com/xiangshouding/martini-middleware/fis
 ```
 
-`martini-middleware/fis` 修改并重新发布了[render][1]，并包含所有render的方法。其中
+[martini-middleware/fis](https://github.com/xiangshouding/martini-middleware) 修改并重新发布了[render][1]，并包含所有render的方法。其中
 添加了一些模板函数。
 
 #### 下载demo
