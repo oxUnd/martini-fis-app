@@ -49,8 +49,38 @@ git clone https://github.com/xiangshouding/martini-fis-app.git
 src 目录下是FIS项目源码，编译后产出到public和template两个目录下。
 
 ```bash
+$ cd src
 $ gois release -d remote
 ```
+
+------------
+
++ url加md5
+
+    ```bash
+    $ gois release -md remote
+    ```
++ 合并静态资源（打包）
+
+    ```bash
+    $ gois release -pd remote
+    ```
++ 静态资源压缩
+
+    ```bash
+    $ gois release -od remote
+    ```
++ 静态资源加CDN
+
+    ```bash
+    $ gois release -Dd remote
+    ```
++ md5 + 打包 + 压缩 + CDN
+
+    ```
+    $ gois release -ompDd remote
+    ```
+----
 
 #### app.go
 
@@ -113,6 +143,21 @@ widget 目录下的js都会被组件化；
 <script>
 var testjs = "{{uri `widget/test.js`}}" //获得test.js的线上路径
 </script>
+```
+
+###### widget
+
+```html
+<!-- widget/header/header.tpl -->
+{{define "widget/header/header.tpl"}}
+    <script>
+        //blabla
+    </script>
+    {{require "widget/header/header.tpl"}} <!-- load widget使用到的静态资源 -->
+{{end}}
+
+<!-- page/index.tpl -->
+{{template "widget/header/header.tpl"}} <!-- use widget `widget/header/header.tpl` -->
 ```
 
 静态资源在`</head>`前加载
