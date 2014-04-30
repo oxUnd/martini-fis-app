@@ -166,6 +166,7 @@ var testjs = "{{uri `widget/test.js`}}" //获得test.js的线上路径
 
 * [fis.baidu.com](fis.baidu.com)
 * [http://fex.baidu.com/blog/2014/04/fis-static-resource-management/](http://fex.baidu.com/blog/2014/04/fis-static-resource-management/)
+* [https://github.com/fouber/blog/issues/2](https://github.com/fouber/blog/issues/2)
 
 [0]: https://github.com/fex-team/fis "fex-team/fis"
 [1]: https://github.com/martini-contrib/render "martini-contrib/render"
