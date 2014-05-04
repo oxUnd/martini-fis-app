@@ -15,7 +15,10 @@ func main() {
 	}))
 
 	m.Get("/", func(r fis.Render) {
-		r.HTML(200, "page/index", "")
+		p := map[string]string{
+			"title": "Martini FIS",
+		}
+		r.HTML(200, "page/index", p)
 	})
 	fmt.Println(martini.Env)
 	m.Run()

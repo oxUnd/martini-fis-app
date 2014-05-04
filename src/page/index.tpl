@@ -2,7 +2,7 @@
 {{framework "static/lib/mod.js"}}
 <html>
 <head>
-    <title>Martini FIS</title>
+    <title>{{.title}}</title>
 </head>
 <body>
 
